@@ -1,17 +1,20 @@
 import 'package:e_commerce/const/colors.dart';
 import 'package:e_commerce/cort/router/router.dart';
-import 'package:e_commerce/features/signin/unit/image_filed.dart';
+import 'package:e_commerce/features/signin/view.dart';
 import 'package:e_commerce/features/verify/cubit.dart';
-import 'package:e_commerce/features/verify/unit/PinCodeText.dart';
-import 'package:e_commerce/features/verify/unit/tetx_tap.dart';
-import 'package:e_commerce/features/verify/unit/verify_button.dart';
-import 'package:e_commerce/features/verify/unit/verify_resend.dart';
 import 'package:e_commerce/widget/button_widget.dart';
 import 'package:e_commerce/widget/continer_widget.dart';
 import 'package:e_commerce/widget/textButtonWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
+
+
+
+part 'unit/otp_PinCodeText.dart';
+part 'unit/otp_button.dart';
+part 'unit/otp_tetx_tap.dart';
+part 'unit/otp_resend.dart';
 
 class VerifyView extends StatelessWidget {
   const VerifyView({Key? key}) : super(key: key);

@@ -1,9 +1,5 @@
-import 'package:e_commerce/cort/validator/validitor.dart';
-import 'package:e_commerce/features/siginup/cubit.dart';
-import 'package:e_commerce/widget/continerWithTextFiled.dart';
-import 'package:e_commerce/widget/input_form_filed.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+part of '../view.dart';
+
 
 class FieldsSignUp extends StatelessWidget {
    FieldsSignUp({Key? key}) : super(key: key);

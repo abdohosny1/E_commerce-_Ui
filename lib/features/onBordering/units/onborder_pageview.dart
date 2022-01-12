@@ -2,12 +2,12 @@ import 'package:e_commerce/features/onBordering/cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'bulidBorderingItem.dart';
+import 'bulid_bordering_item.dart';
 
 
 class PageViewDesgin extends StatelessWidget {
-   PageViewDesgin({Key? key,this.controller,this.list}) : super(key: key);
-   final PageController? controller;
+   PageViewDesgin({Key? key,this.list}) : super(key: key);
+
     List<dynamic>? list;
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class PageViewDesgin extends StatelessWidget {
                cubit.changeVisibility();
               }
             },
-            controller: controller,
+            controller: cubit.borderConteler,
             physics: BouncingScrollPhysics(),
             itemBuilder: (context,index) =>BulidBorderingItem(
                 model:list![index]),

@@ -1,5 +1,4 @@
-import 'package:e_commerce/const/colors.dart';
-import 'package:flutter/material.dart';
+part of'../view.dart';
 class ImageFiled extends StatelessWidget {
   const ImageFiled({Key? key}) : super(key: key);
 

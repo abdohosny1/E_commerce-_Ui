@@ -3,7 +3,7 @@ import 'package:e_commerce/model/borderModel.dart';
 List<BorderingModel> list=
 [
   BorderingModel(
-      image: 'assets/images/one.png',
+      image: 'assets/images/onea.png',
       title: 'on Bord  1 Title',
       body: 'on Bord 1 Body'),
   BorderingModel(

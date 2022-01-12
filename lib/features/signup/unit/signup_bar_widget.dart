@@ -1,6 +1,5 @@
-import 'package:e_commerce/const/colors.dart';
-import 'package:e_commerce/cort/router/router.dart';
-import 'package:flutter/material.dart';
+
+part of '../view.dart';
 
 class BarWidget extends StatelessWidget {
   const BarWidget({Key? key}) : super(key: key);

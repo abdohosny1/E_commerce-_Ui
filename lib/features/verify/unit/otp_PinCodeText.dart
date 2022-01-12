@@ -1,6 +1,4 @@
-import 'package:e_commerce/const/colors.dart';
-import 'package:flutter/material.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
+part of'../view.dart';
 
 class PinCodeText extends StatelessWidget {
   const PinCodeText({Key? key}) : super(key: key);

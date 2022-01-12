@@ -1,5 +1,5 @@
 import 'package:e_commerce/const/colors.dart';
-import 'package:e_commerce/features/onBordering/units/SmoothPage.dart';
+import 'package:e_commerce/widget/SmoothPage.dart';
 import 'package:e_commerce/features/productdetails/cubit.dart';
 import 'package:e_commerce/features/productdetails/tab_bar_viewer/tabbarfour.dart';
 import 'package:e_commerce/features/productdetails/tab_bar_viewer/tabbarone.dart';

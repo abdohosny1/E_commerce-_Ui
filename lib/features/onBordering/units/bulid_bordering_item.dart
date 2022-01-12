@@ -1,6 +1,6 @@
 import 'package:e_commerce/const/colors.dart';
 import 'package:e_commerce/cort/router/router.dart';
-import 'package:e_commerce/features/siginup/view.dart';
+import 'package:e_commerce/features/signup/view.dart';
 import 'package:e_commerce/features/signin/view.dart';
 import 'package:e_commerce/model/borderModel.dart';
 import 'package:e_commerce/widget/button_widget.dart';
@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 class BulidBorderingItem extends StatelessWidget {
    BulidBorderingItem({Key? key,required this.model}) : super(key: key);
 
- late BorderingModel model;
+ final BorderingModel model;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class BulidBorderingItem extends StatelessWidget {
               child: Image(
                 image:AssetImage('${model.image}') ,
                 fit: BoxFit.contain,
-               width: 200,
+               //todo:chang size
 
 
                // color: kWhiteColors,

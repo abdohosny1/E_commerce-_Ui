@@ -1,8 +1,5 @@
-import 'package:e_commerce/features/verify/cubit.dart';
-import 'package:e_commerce/widget/textButtonWidget.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
+part of'../view.dart';
 class VerifyResend extends StatelessWidget {
 
   @override
